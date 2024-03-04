@@ -23,8 +23,7 @@ def define_activity(age):
         return 'Вы учитесь в школе'
     elif age < 24:
         return 'Вы учитесь в ВУЗе'
-    else:
-        return 'Вы уже работаете'
+    return 'Вы уже работаете'
     
 def main():
     age = int(input('Введите Ваш возраст: '))

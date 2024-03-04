@@ -24,8 +24,7 @@ def string_checking(str1, str2):
         return 3
     elif len(str1) > len(str2):
         return 2
-    else:
-        return -1
+    return -1
 
 def main():
     print(string_checking('italy','italy'))
